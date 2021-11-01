@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إشراقة نور</title>
+    <!-- <link rel="stylesheet" href="../css/إشراقة نور css.css"> -->
+    <link rel="stylesheet" href="../css/normalise.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="قرءان.css"         >
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;0,600;0,900;1,200&display=swap" rel="stylesheet">
+    <style>
+        /* start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-image: url("../images/new's background.jpg");
+    background-size: cover;
+}
+ul {
+    list-style: none;
+}
+
+/* end Global Rules */
+.parent{
+    background-color: #eee;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* start header */
+
+header{
+    color: none;
+    text-decoration: bold;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+header .container::after {
+    content:"";
+    position: absolute;
+    height: 1px;
+    background-color: #a2a2a2;
+    bottom: -1px;
+    width: calc(100% - 30px);
+    left: 15px;
+}
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li a {
+    padding: 40px 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+    font-style: oblique;
+    font-weight: unset;
+}
+header nav ul li a.active,
+header nav ul li a:hover {
+    color: #19c8fa;
+    border-bottom: 1px  solid #19c8fa;
+}
+header nav .form {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    margin-left: 30px;
+    border-left: 1px solid white;
+}
+header nav .form i{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+.logo {
+    position: absolute;
+    font-size: 5px;
+    top: 70%;
+    transform: translateY(-50%);
+    left: 0;
+}
+/* end header */
+div .container{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    
+}
+h1{
+    color: #1b0255;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #1b0255;
+    font-weight: bold;
+    
+}
+div .container a {    
+    padding: 30px 10px;
+    display: inline-block;
+    color: rgba(49, 0, 0, 0.863);
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: rgba(47, 172, 255, 0.568);
+}
+div .container .right {
+    text-align: right;
+}
+div .container .center {
+    text-align: center;
+}
+div .container .left {
+    text-align: left;
+}
+ .container .nav-section {
+    background-color: #1522257e;
+    width: 30%;
+}
+div .asasas {
+    font-size: 100px;
+}
+    </style>
+</head>
+<body>
+    <!--start header-->
+    <header>
+        <div class="container">
+            
+            <nav>
+                <ul>
+                    <li><a href="../index.html">الصفحة الرئيسية</a></li>
+                    <li><a class="active" href="quraan.html">القرآن الكريم</a></li>
+                    
+                    <li><a href="fasih.html">فصيح البيان</a></li>
+                    <li><a href="athkar.html">أذكار الصباح والمساء</a></li>
+                    <li><a href="atfal.html">أطفال</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+    <!-- end header<div> -->
+        <!-- <div class="container"> -->
+        
+        
+            <!-- <main class="container">
+            <section class="nav-section">
+                <h1>الفهرس</h1>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="google">الفاتحة</a></li>
+                    <li><a href="google">البقرة</a></li>
+                    <li><a href="google">ال عمران</a></li>
+                    <li><a href="google">النساء</a></li>
+                    <li><a href="google">المائدة</a></li>
+                </ul>
+            </nav>
+            </section>
+            </main>
+ -->
+<div id="kl"><i>الفهرس</i></div>
+<center>
+<div class="السور"  >
+<pre>
+                    <a href="الفاتحة.html">الفاتحة</a>  
+<a href="البقرة.html">البقرة</a>  
+                    <a href="ال عمران .html"> ال عمران</a>  
+<a href="النساء.html">النساء</a>  
+                    <a href="المائدة .html">المائدة</a>  
+<a href="الانعام.html">الانعام</a>  
+                    <a href="الاعراف.html">الاعراف</a>  
+<a href="الانفال.html">الانفال</a>  
+                    <a href="التوبة.html">التوبة</a>  
+<a href="يونس.html">يونس</a>  
+                    <a href="هود.html">هود</a>  
+<a href="يوسف.html">يوسف</a>  
+                    <a href="الرعد.html">الرعد</a>  
+<a href="ابراهيم.html">ابراهيم</a>  
+                    <a href="الحجر.html">الحجر</a>                          
+<a href="النحل.html">النحل</a>                          
+                    <a href="الاسراء.html">الاسراء</a>                          
+<a href="الكهف.html">الكهف</a>                        
+                    <a href="مريم.html">مريم</a>                     
+<a href="طه.html">طه</a>                          
+                    <a href="الانبياء.html">الانبياء</a>                         
+<a href="الحج.html">الحج</a>                         
+                    <a href="المؤمنون.html">المؤمنون</a>                        
+<a href="النور.html">النور</a>                         
+                    <a href="الفرقان.html">الفرقان</a>                          
+<a href="الشعراء.html">الشعراء</a>                          
+                    <a href="النمل.html">النمل</a>                        
+<a href="القصص.html">القصص</a>                       
+                    <a href="العنكبوت.html">العنكبوت</a>                       
+<a href="الروم.html">الروم</a>                         
+                    <a href="لقمان.html">لقمان</a>                        
+<a href="السجدة.html">السجدة</a>                        
+                    <a href="الاحزاب.html">الأحزاب</a>                        
+<a href="سبأ.html">سبأ</a>                     
+                    <a href="فاطر.html">فاطر</a>                      
+<a href="يس.html">يس</a>                        
+                    <a href="الصافات.html">الصافات</a>                          
+<a href="ص.html">ص</a>                       
+                    <a href="الزمر.html">الزمر</a>                         
+<a href="غافر.html">غافر</a>                       
+                    <a href="فصلت.html">فصلت</a>                          
+<a href="الشورى.html">الشورى</a>                      
+                    <a href="الزخرف.html">الزخرف</a>                        
+<a href="الدخان.html">الدخان</a>                         
+                    <a href="الجاثية.html">الجاثية</a>                    
+<a href="الاحقاف.html">الاحقاف</a>                          
+                    <a href="محمد.html">محمد</a>                       
+<a href="الفتح.html">الفتح</a>                       
+                    <a href="الحجرات.html">الحجرات</a>                       
+<a href="ق.html">ق</a>                          
+                    <a href="الذاريات.html">الذاريات</a>                        
+<a href="الطور.html">الطور</a>                        
+                    <a href="النجم.html">النجم</a>                        
+<a href="القمر.html">القمر</a>                          
+                    <a href="الرحمن.html">الرحمن</a>                        
+<a href="الواقعة.html">الواقعة</a>                       
+                    <a href="الحديد.html">الحديد</a>                          
+<a href="المجادلة.html">المجادلة</a>
+                    <a href="الحشر.html">الحشر</a>
+<a href="الممتحنة.html">الممتحنة</a>
+                    <a href="الصف.html">الصف</a>
+<a href="الجمعة.html">الجمعة</a>
+                    <a href="المنافقون.html">المنافقون</a>
+<a href="التغابن.html">التغابن</a>
+                    <a href="الطلاق.html">الطلاق</a>
+<a href="التحريم.html">التحريم</a>
+                    <a href="الملك.html">الملك</a>
+<a href="القلم.html">القلم</a>
+                    <a href="الحاقة.html">الحاقة</a>
+<a href="المعارج.html">المعارج</a>
+                    <a href="نوح.html">نوح</a>
+<a href="الجن.html">الجن</a>
+                    <a href="المزمل.html">المزمل</a>
+<a href="المدثر.html">المدثر</a>
+                    <a href="القيامة.html">القيامة</a>
+<a href="الانسان.html">الانسان</a>
+                    <a href="المرسلات.html">المرسلات</a>
+<a href="النبأ.html">النبأ</a>
+                    <a href="النازعات.html">النازعات</a>
+<a href="عبس.html">عبس</a>
+                    <a href="التكوير.html">التكوير</a>
+<a href="الانفطار.html">الانفطار</a>
+                    <a href="المطففين.html">المطففين</a>
+<a href="الانشقاق.html">الانشقاق</a>
+                    <a href="البروج.html">البروج</a>
+<a href="الطارق.html">الطارق</a>
+                    <a href="الاعلى.html">الاعلى</a>
+<a href="الغاشية.html">الغاشية</a>
+                    <a href="الفجر.html">الفجر</a>
+<a href="البلد.html">البلد</a>
+                    <a href="الشمس.html">الشمس</a>
+<a href="الليل.html">الليل</a>
+                    <a href="الضحى.html">الضحى</a>
+<a href="الشرح.html">الشرح</a>
+                    <a href="التين.html">التين</a>
+<a href="العلق.html">العلق</a>
+                    <a href="القدر .html">القدر</a>
+<a href="البينة.html">البينة</a>
+                    <a href="الزلزلة.html">الزلزلة</a>
+<a href="العاديات.html">العاديات</a>
+                    <a href="القارعة.html">القارعة</a>
+<a href="التكاثر.html">التكاثر</a>
+                    <a href="العصر.html">العصر</a>
+<a href="الهمزة.html">الهمزة</a>
+                    <a href="الفيل.html">الفيل</a>
+<a href="قريش.html">قريش</a>
+                    <a href="الماعون.html">الماعون</a>
+<a href="الكوثر.html">الكوثر</a>
+                    <a href="الكافرون.html">الكافرون</a>
+<a href="النصر.html">النصر</a>
+                    <a href="المسد.html">المسد</a>
+<a href="الاخلاص.html">الاخلاص</a>
+                    <a href="الفلق.html">الفلق</a>
+<a href="الناس.html">الناس</a>
+</div>
+</pre>
+</center>
+</div>
+</body>
+
+</html>
+
+

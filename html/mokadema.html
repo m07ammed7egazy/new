@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إشراقة نور</title>
+    <!-- <link rel="stylesheet" href="../css/إشراقة نور css.css"> -->
+    <link rel="stylesheet" href="../css/normalise.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;0,600;0,900;1,200&display=swap" rel="stylesheet">
+    <style>
+        /* start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-image: url("../images/new's background.jpg");
+    background-size: cover;
+}
+ul {
+    list-style: none;
+}
+
+/* end Global Rules */
+.parent{
+    background-color: #eee;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* start header */
+
+header{
+    color: none;
+    text-decoration: bold;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+header .container::after {
+    content:"";
+    position: absolute;
+    height: 1px;
+    background-color: #a2a2a2;
+    bottom: -1px;
+    width: calc(100% - 30px);
+    left: 15px;
+}
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li a {
+    padding: 40px 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+    font-style: oblique;
+    font-weight: unset;
+}
+header nav ul li a.active,
+header nav ul li a:hover {
+    color: #19c8fa;
+    border-bottom: 1px  solid #19c8fa;
+}
+header nav .form {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    margin-left: 30px;
+    border-left: 1px solid white;
+}
+header nav .form i{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+.logo {
+    position: absolute;
+    font-size: 5px;
+    top: 70%;
+    transform: translateY(-50%);
+    left: 0;
+}
+/* end header */
+div .container{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    
+}
+h1{
+    color: #1b0255;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #1b0255;
+    font-weight: bold;
+    
+}
+div .container ul li a {    
+    padding: 30px 10px;
+    display: block;
+    color: rgba(0, 0, 0, 0.863);
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: rgba(249, 255, 255, 0.301);
+}
+div .aaa ul .fsfs li a {
+    color: #1b0255;
+}
+    </style>
+</head>
+<body>
+    <!--start header-->
+    <header>
+        <div class="container">
+            
+            <nav>
+                <ul>
+                    <li><a href="../إشراقة نور.html">الصفحة الرئيسية</a></li>
+                    <li><a href="quraan.html">القرآن الكريم</a></li>
+                    
+                    <li><a class="active" href="fasih.html">فصيح البيان</a></li>
+                    <li><a href="athkar.html">أذكار الصباح والمساء</a></li>
+                    <li><a href="atfal.html">أطفال</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+    <!--end header--><div>
+        <div class="container">
+            <h1>الفهرس</h1>
+
+            <ul>
+                
+                <li><a href="#"><h3>الجزء الأول: مقدمة في عالم التجويد</h3></a></li>
+                <li><a href="quraan_careem.html"  style="color: #ca1717;">١- القرآن الكريم</a></li>
+            
+                <li><a href="ahrof.html" style="color: #ca1717;">٢- الأحرف السبعة</a></li>
+                
+                <li><a href="mostalahat.html" style="color: #ca1717;">٣- بعض المصطلحات التجويدية</a></li>
+                
+                <li><a href="tragem.html" style="color: #ca1717;">٤- تراجم بعض الأئمة</a></li>
+                <li><a href="elmeljgwid.html" style="color: #ca1717;">٥- علم التجويد                </a></li>
+                
+                <li><a href="lahn.html" style="color: #ca1717;">٦- اللحن وأقسامه</a></li>
+                
+                <li><a href="istaaza.html" style="color: #ca1717;">٧- الاستعاذة</a></li>
+                <li><a href="basmala.html" style="color: #ca1717;">٨- البسملة                </a></li>
+                <li><a href="swaken.html"><h3>الجزء الثاني: السواكن</h3></a></li>
+                
+                <!-- <li><a href="fehreselnon.html">٩- أحكام النون الساكنة والتنوين</a></li>
+                
+                <li><a href="meem.html">١٠- أحكام الميم الساكنة</a></li>
+                <li><a href="non,meem.html">١١- أحكام النون والميم المشددتين                </a></li>
+                
+                <li><a href="lam.html">١٢- أحكام اللامات السواكن</a></li> -->
+                <li><a href="mdod.html"><h3>الجزء الثالث: المدود</h3></a></li>
+                <!-- <li><a href="#">١٣- المدود                </a></li>
+                <li><a href="#">١٤- ألقاب المدود</a></li>
+                
+                <li><a href="#">١٥- مراتب المدود والفوائد المترتبة على معرفتها</a></li> -->
+                <li><a href="mkhareg.html"><h3>الجزء الرابع: المخارج والصفات وعلاقات الحروف</h3></a></li>
+                <!-- <li><a href="#">١٦- مخارج الحروف</a></li>
+                <li><a href="#">١٧- صفات الحروف</a></li>
+                
+                <li><a href="#">١٨- علاقات الحروف</a></li> -->
+                <li><a href="tafkheem.html"><h3>الجزء الخامس: التفخيم والترقيق</h3></a></li>
+                <!-- <li><a href="#">١٩- التفخيم والترقيق                </a></li>
+                <li><a href="#">٢٠- همزة الوصل وهمزة القطع                </a></li>
+                
+                <li><a href="#">٢١- الحذف والإثبات</a></li>
+                
+                <li><a href="#">٢٢- الوقف والابتداء</a></li>
+                <li><a href="#">٢٣- ما يراعى لحفص من الكلمات القرآنية</a></li> -->
+                <li><a href="haaa.html"><h3>الجزء السادس: من هاء الضمير إلى تاء التأنيث</h3></a></li>
+                <!-- <li><a href="#">٢٤- هاء الضمير</a></li>
+                
+                <li><a href="#">٢٥- الوقف على أواخر الكلم</a></li>
+                <li><a href="#">٢٦- التقاء الساكنين</a></li>
+                <li><a href="#">٢٧- المقطوع والموصول</a></li>
+                <li><a href="#">٢٩- تاء التأنيث</a></li> -->
+        </ul></div>
+    </div>
+</body>
+</html>

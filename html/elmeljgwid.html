@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إشراقة نور</title>
+    <!-- <link rel="stylesheet" href="../css/إشراقة نور css.css"> -->
+    <link rel="stylesheet" href="../css/normalise.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;0,600;0,900;1,200&display=swap" rel="stylesheet">
+    <style>
+        /* start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-image: url("../images/new's background.jpg");
+    background-size: cover;
+}
+ul {
+    list-style: none;
+}
+
+/* end Global Rules */
+.parent{
+    background-color: #eee;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* start header */
+
+header{
+    color: none;
+    text-decoration: bold;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+header .container::after {
+    content:"";
+    position: absolute;
+    height: 1px;
+    background-color: #a2a2a2;
+    bottom: -1px;
+    width: calc(100% - 30px);
+    left: 15px;
+}
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li a {
+    padding: 40px 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+    font-style: oblique;
+    font-weight: unset;
+}
+header nav ul li a.active,
+header nav ul li a:hover {
+    color: #19c8fa;
+    border-bottom: 1px  solid #19c8fa;
+}
+header nav .form {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    margin-left: 30px;
+    border-left: 1px solid white;
+}
+header nav .form i{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+.logo {
+    position: absolute;
+    font-size: 5px;
+    top: 70%;
+    transform: translateY(-50%);
+    left: 0;
+}
+/* end header */
+div .container{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    
+}
+h1{
+    color: #1b0255;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #1b0255;
+    font-weight: bold;
+    
+}
+div .container {    
+    padding: 30px 10px;
+    display: block;
+    color: rgba(49, 0, 0, 0.863);
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+    /* font-style: ; */
+    /* font-weight: bold; */
+    background-color: rgba(145, 67, 4, 0.774);
+    text-align: right;
+    
+}
+h2{
+    color: #1b0255;
+}
+p{
+    font-style: normal;
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <!--start header-->
+    <header>
+        <div class="container">
+            
+            <nav>
+                <ul>
+                    <li><a href="../إشراقة نور.html">الصفحة الرئيسية</a></li>
+                    <li><a href="quraan.html">القرآن الكريم</a></li>
+                    <li><a href="hadith.html">الحديث الشريف</a></li>
+                    <li><a class="active" href="fasih.html">فصيح البيان</a></li>
+                    <li><a href="athkar.html">أذكار الصباح والمساء</a></li>
+                    <li><a href="atfal.html">أطفال</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+    <!--end header--><div>
+        <div class="container">
+        
+            <h2>مبادئ علم التجويد </h2>
+            <p> اسمه: علم التجويد<br>
+                تعريفه لغة: التحسين والإتقان، يقال جود الشيء أي حسنه وأتقنه<br>
+                تعريفه اصطلاحا: علم يبحث في الكلمات القرآنية من حيث إعطاء الحروف حقها ومستحقها<br>
+                وحق الحرف: هو صفاته الذاتية اللازمة له كالجهر والشدة<br>
+                ومستحق الحرف: هو الصفات العرضية الناشئة عن الصفات الذاتية كالتفخيم ناشئ عن الاستعلاء
+                <br>
+                موضوعه: الكلمات القرآنية<br>
+                فضله: هو من أشرف العلوم وأفضلها لتعلقه بأشرف الكتب و أجلها
+                <br>
+                استمداده: من كيفية قراءة النبي وقراءة أصحابه وقراءة التابعين من أئمة القراءة حتى وصل إلينا بطريق التواتر
+                <br>
+                مسائله: قواعده وقضاياء الكلية التي يتوصل بها إلى معرفة أحكامه الجرنية کاحكام النون الساكنة والتنوين 
+                <br>
+                غايته: صون اللسان من اللحن في كتاب الله لكي ينال رضا ربه</p>
+    
+            
+            <h3> واضعه        </h3>
+            <h4>ا. من الناحية العملية</h4>
+            <p>النبي - صلى الله عليه وسلم - تلقاه هكذا من جبريل - عليه السلام - ثم تلقاه
+                الصحابة من النبي ، وهكذا حتى وصل الينا بهذه الكيفية عن طريق النقل المتواتر</p>
+            <h4>٢. من الناحية العلمية</h4>
+            <p> قيل الخليل بن أحمد،و قيل أبوأسود الؤلي و قيل حفص الدوري، وقيل أئمة القراءة، وأقدم نظم وصل الينا في علم التجويد نظم أبي مزاحم الخاقاني</p>
+            
+            <h2>اركان التجويد: ( قواعد هامة في التجويد )</h2>
+            <p>١- معرفة مخارج الحروف<br>
+                ۲- معرفة صفات الحروف<br>
+                ۳- معرفة الأحكام الناشئة عن تركيب الحروف<br>
+                ٤- رياضة اللسان وكثرة التكرار</p>
+            
+            <h2> أقسام التجويد</h2>
+            <h4>ينقسم التجويد إلى قسمين: (أ) تجويد عملي (ب) تجويد علمي</h4>
+            <h3> القسم الأول : التجويد العملي التطبيقي </h3>
+            <p> تعريفه: تلاوة القرآن الكريم تلاوة مجودة كما أنزلت على النبي - صلى الله عليه وسلم <br>
+                أول من وضعه: النبي - صلى الله عليه وسلم - حيث كان يعلم أصحابه وقرأ عليهم القرآن كما أنزل عليه<br>
+                حكمه: واجب وجوبا عينيا على كل مسلم ومسلمة<br>
+                أدلة وجوبه من القرآن<br>
+                ١- قوله تعالى: (وترتيل القرءان تتيه) والترتيل معناه – كما عرفه الإمام علي بن أبي طالب - " تجويد الحروف ومعرفة الوقوف "<br>
+                ۲ - قوله تعالى:( والذين اتيناهم الكتب يتلونه حق تلاوته ) ومن حق التلاوة حسن الأداء وجودة القراءة<br>
+                أدلة وجوبه من السنة<br>
+                ١- منها ما ثبت عن يعلى بن مملك أنه سأل أم سلمة - رضي الله عنها- عن قراءة رسول الله - صلى الله عليه وسلم - وصلاته، قالت: مالكم وصلاته؟ ثم نعتت قراءته
+                
+                فإذا هي تنعت قراءة مفسرة حرفا حرفا 
+                <br>
+                ٢- ومنها ما ثبت عن ابن مسعود رضي الله عنه - أنه كان يقرئ رجلا فقرا الرجل: ( إنما الصدقات للفقراء والمساكين ) مرسلة، فقال ابن مسعود، ما هكذا أقرأنيها رسول الله ، فقال الرجل: وكيف أقر أكها يا أبا عبد الرحمن قال: أقرأنيها هكذا: (إنما الصدقات للفقراء والمساكين ) ومدها
+                <br>
+                أدلة وجوبه من الإجماع<br>
+                فقد أجمعت الأمة على وجوب تلاوة القرآن الكريم بالتجويد من زمن وفاة النبي إلى زماننا هذا فلا يجوز لأي قارئ أن يقرأ القرآن بغير تجويد<br>
+                قال الإمام ابن الجزري في المقدمة الجزرية<br>
+                والأخذ بالتجود حتم لازم
+                <br>
+                من لم يجد القرآن آثم
+                <br>
+                لانه به الإله أنزلا
+                <br>
+                وهكذا منه إلينا وصلا</p>
+            
+            <h3>القسم الثاني : التجويد العلمي (النظري )</h3>
+            <p>
+                تعريفه: معرفة قواعد وأحكام التجويد العلمية من مصطلحات وغير ذلك
+                <br>
+                حكمة: التجويد العلمي بالنسبة للناس قسمان
+                <br>
+                ١- عامة الناس: وتعلمه لهم مندوب وليس واجبا<br>
+                ۲- خاصة الناس: وهم المتصدرون للإقراء والتعليم للناس، وتعلمه بالنسبة لهم واجب وجوبا عينيا
+                <br>
+                دليله من القرآن 
+                <br>
+                عموم قوله تعالى: ( فلولا نفر من كل فرقة منهم  طائفه ليتفقهوا في الدين ) ودراسة علم التجويد من التفقه في الدين فإذا قام به جماعة من الناس سقط عن الباقين</p>
+            
+        </div>
+    </div>
+</body>
+</html>
